@@ -1,76 +1,117 @@
 <svg width="850" height="149" viewBox="0 0 850 149" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="850" y2="149" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4C1D95"/>
-      <stop offset="0.45" stop-color="#7C3AED"/>
-      <stop offset="1" stop-color="#5B21B6"/>
+    <linearGradient id="drip" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="0.48" stop-color="#7E22CE"/>
+      <stop offset="1" stop-color="#4C1D95"/>
     </linearGradient>
-    <linearGradient id="text" x1="158" y1="28" x2="677" y2="111" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E9D5FF" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#C084FC" stop-opacity="0.95"/>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9D5FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#E9D5FF" stop-opacity="0"/>
     </linearGradient>
+    <filter id="textShadow" x="76" y="18" width="706" height="115" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="3"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.109804 0 0 0 0 0.0196078 0 0 0 0 0.211765 0 0 0 0.55 0"/>
+      <feBlend in2="SourceGraphic" result="shape"/>
+    </filter>
+    <filter id="dripGlow" x="-10" y="-12" width="870" height="173" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
   </defs>
 
-  <rect width="850" height="149" rx="8" fill="#1F093C"/>
+  <rect width="850" height="149" fill="white"/>
 
-  <g opacity="0.95">
-    <rect x="0" y="0" width="10" height="149" fill="url(#bg)"/>
-    <rect x="18" y="0" width="8" height="120" fill="url(#bg)"/>
-    <rect x="33" y="0" width="6" height="143" fill="url(#bg)"/>
-    <rect x="47" y="0" width="12" height="94" fill="url(#bg)"/>
-    <rect x="65" y="0" width="9" height="149" fill="url(#bg)"/>
-    <rect x="82" y="0" width="7" height="112" fill="url(#bg)"/>
-    <rect x="96" y="0" width="11" height="149" fill="url(#bg)"/>
-    <rect x="114" y="0" width="8" height="129" fill="url(#bg)"/>
-    <rect x="130" y="0" width="6" height="149" fill="url(#bg)"/>
-    <rect x="145" y="0" width="12" height="104" fill="url(#bg)"/>
-    <rect x="164" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="179" y="0" width="6" height="137" fill="url(#bg)"/>
-    <rect x="194" y="0" width="9" height="149" fill="url(#bg)"/>
-    <rect x="210" y="0" width="7" height="86" fill="url(#bg)"/>
-    <rect x="225" y="0" width="11" height="149" fill="url(#bg)"/>
-    <rect x="242" y="0" width="9" height="123" fill="url(#bg)"/>
-    <rect x="258" y="0" width="6" height="149" fill="url(#bg)"/>
-    <rect x="272" y="0" width="11" height="111" fill="url(#bg)"/>
-    <rect x="290" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="305" y="0" width="7" height="118" fill="url(#bg)"/>
-    <rect x="320" y="0" width="12" height="149" fill="url(#bg)"/>
-    <rect x="338" y="0" width="8" height="140" fill="url(#bg)"/>
-    <rect x="353" y="0" width="6" height="149" fill="url(#bg)"/>
-    <rect x="367" y="0" width="11" height="98" fill="url(#bg)"/>
-    <rect x="384" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="400" y="0" width="6" height="130" fill="url(#bg)"/>
-    <rect x="414" y="0" width="10" height="149" fill="url(#bg)"/>
-    <rect x="431" y="0" width="7" height="121" fill="url(#bg)"/>
-    <rect x="446" y="0" width="11" height="149" fill="url(#bg)"/>
-    <rect x="463" y="0" width="9" height="103" fill="url(#bg)"/>
-    <rect x="479" y="0" width="6" height="149" fill="url(#bg)"/>
-    <rect x="494" y="0" width="12" height="135" fill="url(#bg)"/>
-    <rect x="512" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="527" y="0" width="6" height="109" fill="url(#bg)"/>
-    <rect x="541" y="0" width="10" height="149" fill="url(#bg)"/>
-    <rect x="558" y="0" width="8" height="115" fill="url(#bg)"/>
-    <rect x="573" y="0" width="7" height="149" fill="url(#bg)"/>
-    <rect x="588" y="0" width="12" height="126" fill="url(#bg)"/>
-    <rect x="606" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="621" y="0" width="6" height="88" fill="url(#bg)"/>
-    <rect x="635" y="0" width="10" height="149" fill="url(#bg)"/>
-    <rect x="652" y="0" width="7" height="133" fill="url(#bg)"/>
-    <rect x="667" y="0" width="11" height="149" fill="url(#bg)"/>
-    <rect x="684" y="0" width="9" height="108" fill="url(#bg)"/>
-    <rect x="700" y="0" width="6" height="149" fill="url(#bg)"/>
-    <rect x="715" y="0" width="11" height="142" fill="url(#bg)"/>
-    <rect x="733" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="748" y="0" width="6" height="116" fill="url(#bg)"/>
-    <rect x="762" y="0" width="10" height="149" fill="url(#bg)"/>
-    <rect x="779" y="0" width="8" height="128" fill="url(#bg)"/>
-    <rect x="795" y="0" width="7" height="149" fill="url(#bg)"/>
-    <rect x="810" y="0" width="11" height="99" fill="url(#bg)"/>
-    <rect x="827" y="0" width="8" height="149" fill="url(#bg)"/>
-    <rect x="842" y="0" width="8" height="118" fill="url(#bg)"/>
+  <g filter="url(#dripGlow)">
+    <rect x="2" y="0" width="10" height="148" rx="3" fill="url(#drip)"/>
+    <rect x="16" y="0" width="6" height="116" rx="3" fill="url(#drip)"/>
+    <rect x="27" y="0" width="8" height="141" rx="3" fill="url(#drip)"/>
+    <rect x="39" y="0" width="4" height="94" rx="2" fill="url(#drip)"/>
+    <rect x="47" y="0" width="12" height="145" rx="4" fill="url(#drip)"/>
+    <rect x="64" y="0" width="6" height="121" rx="3" fill="url(#drip)"/>
+    <rect x="75" y="0" width="9" height="147" rx="3" fill="url(#drip)"/>
+    <rect x="88" y="0" width="5" height="103" rx="2.5" fill="url(#drip)"/>
+    <rect x="97" y="0" width="14" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="116" y="0" width="7" height="126" rx="3" fill="url(#drip)"/>
+    <rect x="128" y="0" width="10" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="143" y="0" width="5" height="110" rx="2.5" fill="url(#drip)"/>
+    <rect x="152" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="169" y="0" width="6" height="132" rx="3" fill="url(#drip)"/>
+    <rect x="180" y="0" width="9" height="146" rx="3" fill="url(#drip)"/>
+    <rect x="194" y="0" width="4" height="92" rx="2" fill="url(#drip)"/>
+    <rect x="202" y="0" width="13" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="220" y="0" width="6" height="125" rx="3" fill="url(#drip)"/>
+    <rect x="231" y="0" width="10" height="145" rx="3" fill="url(#drip)"/>
+    <rect x="246" y="0" width="5" height="108" rx="2.5" fill="url(#drip)"/>
+    <rect x="255" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="272" y="0" width="7" height="130" rx="3" fill="url(#drip)"/>
+    <rect x="284" y="0" width="8" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="296" y="0" width="5" height="100" rx="2.5" fill="url(#drip)"/>
+    <rect x="305" y="0" width="14" height="147" rx="4" fill="url(#drip)"/>
+    <rect x="324" y="0" width="6" height="123" rx="3" fill="url(#drip)"/>
+    <rect x="335" y="0" width="10" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="350" y="0" width="4" height="87" rx="2" fill="url(#drip)"/>
+    <rect x="358" y="0" width="13" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="376" y="0" width="6" height="118" rx="3" fill="url(#drip)"/>
+    <rect x="387" y="0" width="9" height="146" rx="3" fill="url(#drip)"/>
+    <rect x="400" y="0" width="5" height="105" rx="2.5" fill="url(#drip)"/>
+    <rect x="409" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="426" y="0" width="7" height="128" rx="3" fill="url(#drip)"/>
+    <rect x="438" y="0" width="10" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="453" y="0" width="4" height="95" rx="2" fill="url(#drip)"/>
+    <rect x="461" y="0" width="14" height="145" rx="4" fill="url(#drip)"/>
+    <rect x="480" y="0" width="6" height="121" rx="3" fill="url(#drip)"/>
+    <rect x="491" y="0" width="9" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="504" y="0" width="5" height="111" rx="2.5" fill="url(#drip)"/>
+    <rect x="513" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="530" y="0" width="7" height="127" rx="3" fill="url(#drip)"/>
+    <rect x="542" y="0" width="10" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="557" y="0" width="4" height="90" rx="2" fill="url(#drip)"/>
+    <rect x="565" y="0" width="13" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="583" y="0" width="6" height="120" rx="3" fill="url(#drip)"/>
+    <rect x="594" y="0" width="9" height="147" rx="3" fill="url(#drip)"/>
+    <rect x="607" y="0" width="5" height="102" rx="2.5" fill="url(#drip)"/>
+    <rect x="616" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="633" y="0" width="7" height="132" rx="3" fill="url(#drip)"/>
+    <rect x="645" y="0" width="10" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="660" y="0" width="4" height="98" rx="2" fill="url(#drip)"/>
+    <rect x="668" y="0" width="14" height="146" rx="4" fill="url(#drip)"/>
+    <rect x="687" y="0" width="6" height="122" rx="3" fill="url(#drip)"/>
+    <rect x="698" y="0" width="9" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="711" y="0" width="5" height="113" rx="2.5" fill="url(#drip)"/>
+    <rect x="720" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="737" y="0" width="7" height="126" rx="3" fill="url(#drip)"/>
+    <rect x="749" y="0" width="10" height="149" rx="3" fill="url(#drip)"/>
+    <rect x="764" y="0" width="4" height="96" rx="2" fill="url(#drip)"/>
+    <rect x="772" y="0" width="13" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="790" y="0" width="6" height="125" rx="3" fill="url(#drip)"/>
+    <rect x="801" y="0" width="9" height="147" rx="3" fill="url(#drip)"/>
+    <rect x="814" y="0" width="5" height="104" rx="2.5" fill="url(#drip)"/>
+    <rect x="823" y="0" width="12" height="149" rx="4" fill="url(#drip)"/>
+    <rect x="840" y="0" width="8" height="120" rx="3" fill="url(#drip)"/>
+
+    <rect x="7" y="0" width="1.6" height="148" fill="url(#shine)" opacity="0.65"/>
+    <rect x="50" y="0" width="1.6" height="145" fill="url(#shine)" opacity="0.55"/>
+    <rect x="100" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.65"/>
+    <rect x="155" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.6"/>
+    <rect x="205" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.58"/>
+    <rect x="258" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.62"/>
+    <rect x="308" y="0" width="1.6" height="147" fill="url(#shine)" opacity="0.6"/>
+    <rect x="361" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.64"/>
+    <rect x="412" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.58"/>
+    <rect x="464" y="0" width="1.6" height="145" fill="url(#shine)" opacity="0.66"/>
+    <rect x="516" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.6"/>
+    <rect x="569" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.62"/>
+    <rect x="620" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.59"/>
+    <rect x="672" y="0" width="1.6" height="146" fill="url(#shine)" opacity="0.64"/>
+    <rect x="724" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.6"/>
+    <rect x="776" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.64"/>
+    <rect x="827" y="0" width="1.6" height="149" fill="url(#shine)" opacity="0.58"/>
   </g>
 
-  <text x="425" y="92" text-anchor="middle" fill="url(#text)" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" opacity="0.88">
-    welcome to my profile!
-  </text>
+  <g filter="url(#textShadow)">
+    <text x="425" y="95" text-anchor="middle" fill="#6D28D9" font-family="Arial Black, Segoe UI, Verdana, sans-serif" font-size="66" font-weight="900" letter-spacing="-1.6">
+      Welcome to my profile!
+    </text>
+  </g>
 </svg>
