@@ -1,6 +1,6 @@
 ![Alt Text](./assets/profile-header-v2.svg)
 
-# Allah Ditta - Full Stack JavaScript Developer
+# Allah Ditta - Software Engineer | Mern Stack Developer
 
 ## :bulb: Languages & Frameworks I code in
 
