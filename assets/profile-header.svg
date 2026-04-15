@@ -1,94 +1,58 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="149" viewBox="0 0 850 149" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="80" y1="20" x2="1130" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#12081F"/>
-      <stop offset="0.38" stop-color="#25103C"/>
-      <stop offset="0.72" stop-color="#3B1362"/>
-      <stop offset="1" stop-color="#1F0A34"/>
+    <linearGradient id="dripMain" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B252FF"/>
+      <stop offset="0.52" stop-color="#7D22CF"/>
+      <stop offset="1" stop-color="#4F1A8A"/>
     </linearGradient>
-    <linearGradient id="streak" x1="0" y1="0" x2="0" y2="210" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E9D5FF"/>
-      <stop offset="0.22" stop-color="#C084FC"/>
-      <stop offset="0.7" stop-color="#7C3AED"/>
-      <stop offset="1" stop-color="#4C1D95" stop-opacity="0"/>
+    <linearGradient id="dripSoft" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8A7FF" stop-opacity="0.95"/>
+      <stop offset="0.38" stop-color="#A14EFF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#6F1CC4" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="textMain" x1="320" y1="105" x2="884" y2="222" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F5EFFF"/>
-      <stop offset="1" stop-color="#D8B4FE"/>
-    </linearGradient>
-    <linearGradient id="subText" x1="430" y1="238" x2="768" y2="262" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#C4B5FD"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <filter id="blurOrb" x="0" y="0" width="1200" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="38"/>
-    </filter>
-    <filter id="glassBlur" x="230" y="58" width="740" height="186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
-    <filter id="shadow" x="238" y="72" width="724" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feOffset dy="12"/>
-      <feGaussianBlur stdDeviation="12"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.0862745 0 0 0 0 0.0196078 0 0 0 0 0.156863 0 0 0 0.36 0"/>
-    </filter>
-    <filter id="textShadow" x="292" y="102" width="620" height="98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feOffset dy="8"/>
-      <feGaussianBlur stdDeviation="8"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.0235294 0 0 0 0 0.129412 0 0 0 0.45 0"/>
+    <pattern id="barsA" x="0" y="0" width="86" height="149" patternUnits="userSpaceOnUse">
+      <rect x="2" y="0" width="8" height="149" rx="3" fill="url(#dripMain)"/>
+      <rect x="15" y="0" width="3" height="91" rx="1.5" fill="url(#dripMain)"/>
+      <rect x="22" y="0" width="6" height="128" rx="2.5" fill="url(#dripMain)"/>
+      <rect x="33" y="0" width="4" height="74" rx="2" fill="url(#dripMain)"/>
+      <rect x="41" y="0" width="10" height="149" rx="3.5" fill="url(#dripMain)"/>
+      <rect x="56" y="0" width="3" height="102" rx="1.5" fill="url(#dripMain)"/>
+      <rect x="63" y="0" width="7" height="140" rx="3" fill="url(#dripMain)"/>
+      <rect x="75" y="0" width="4" height="87" rx="2" fill="url(#dripMain)"/>
+    </pattern>
+    <pattern id="barsB" x="0" y="0" width="94" height="149" patternUnits="userSpaceOnUse">
+      <rect x="6" y="0" width="2" height="114" rx="1" fill="url(#dripSoft)"/>
+      <rect x="18" y="0" width="5" height="149" rx="2.5" fill="url(#dripSoft)"/>
+      <rect x="31" y="0" width="2" height="67" rx="1" fill="url(#dripSoft)"/>
+      <rect x="39" y="0" width="4" height="118" rx="2" fill="url(#dripSoft)"/>
+      <rect x="52" y="0" width="2" height="149" rx="1" fill="url(#dripSoft)"/>
+      <rect x="61" y="0" width="3" height="95" rx="1.5" fill="url(#dripSoft)"/>
+      <rect x="71" y="0" width="5" height="133" rx="2.5" fill="url(#dripSoft)"/>
+      <rect x="84" y="0" width="2" height="81" rx="1" fill="url(#dripSoft)"/>
+    </pattern>
+    <filter id="textBlur" x="53" y="25" width="744" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.6"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="30" fill="url(#bg)"/>
+  <rect width="850" height="149" fill="white"/>
+  <rect width="850" height="149" fill="url(#barsA)"/>
+  <rect x="7" width="843" height="149" fill="url(#barsB)" opacity="0.8"/>
+  <rect x="0" y="0" width="850" height="26" fill="#FFFFFF" fill-opacity="0.08"/>
 
-  <g filter="url(#blurOrb)" opacity="0.95">
-    <circle cx="205" cy="84" r="94" fill="#7C3AED"/>
-    <circle cx="1045" cy="82" r="112" fill="#9333EA"/>
-    <circle cx="924" cy="266" r="96" fill="#4F46E5"/>
-  </g>
-
-  <g opacity="0.95">
-    <rect x="52" y="0" width="8" height="188" rx="4" fill="url(#streak)"/>
-    <rect x="79" y="0" width="5" height="134" rx="2.5" fill="url(#streak)"/>
-    <rect x="102" y="0" width="10" height="214" rx="5" fill="url(#streak)"/>
-    <rect x="131" y="0" width="6" height="168" rx="3" fill="url(#streak)"/>
-    <rect x="158" y="0" width="12" height="228" rx="6" fill="url(#streak)"/>
-    <rect x="191" y="0" width="6" height="147" rx="3" fill="url(#streak)"/>
-    <rect x="219" y="0" width="9" height="202" rx="4.5" fill="url(#streak)"/>
-    <rect x="968" y="0" width="7" height="174" rx="3.5" fill="url(#streak)"/>
-    <rect x="994" y="0" width="11" height="232" rx="5.5" fill="url(#streak)"/>
-    <rect x="1027" y="0" width="6" height="149" rx="3" fill="url(#streak)"/>
-    <rect x="1054" y="0" width="9" height="210" rx="4.5" fill="url(#streak)"/>
-    <rect x="1084" y="0" width="5" height="137" rx="2.5" fill="url(#streak)"/>
-    <rect x="1107" y="0" width="12" height="224" rx="6" fill="url(#streak)"/>
-    <rect x="1140" y="0" width="7" height="164" rx="3.5" fill="url(#streak)"/>
-  </g>
-
-  <g filter="url(#shadow)">
-    <rect x="262" y="84" width="676" height="126" rx="28" fill="#0D0716" fill-opacity="0.42"/>
-  </g>
-
-  <g filter="url(#glassBlur)">
-    <rect x="262" y="84" width="676" height="126" rx="28" fill="#FFFFFF" fill-opacity="0.08"/>
-    <rect x="262.75" y="84.75" width="674.5" height="124.5" rx="27.25" stroke="url(#subText)" stroke-opacity="0.26" stroke-width="1.5"/>
-  </g>
-
-  <rect x="280" y="102" width="120" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.08"/>
-  <text x="340" y="121" text-anchor="middle" fill="#E9D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6">PORTFOLIO</text>
-
-  <g filter="url(#textShadow)">
-    <text x="600" y="168" text-anchor="middle" fill="url(#textMain)" font-family="Arial Black, Segoe UI, Verdana, sans-serif" font-size="58" font-weight="900" letter-spacing="-1.8">
+  <g filter="url(#textBlur)">
+    <text
+      x="425"
+      y="94"
+      text-anchor="middle"
+      fill="#5B248C"
+      fill-opacity="0.58"
+      font-family="Arial Black, Segoe UI, Verdana, sans-serif"
+      font-size="65"
+      font-weight="900"
+      letter-spacing="-1.6"
+    >
       Welcome to my profile!
     </text>
   </g>
-
-  <text x="600" y="196" text-anchor="middle" fill="url(#subText)" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="0.8">
-    Full-stack projects, polished UI, and recruiter-ready work
-  </text>
-
-  <circle cx="905" cy="109" r="3" fill="#F5D0FE"/>
-  <circle cx="922" cy="96" r="2.5" fill="#E9D5FF"/>
-  <circle cx="940" cy="112" r="2" fill="#DDD6FE"/>
-  <circle cx="288" cy="224" r="2.2" fill="#C084FC" fill-opacity="0.85"/>
-  <circle cx="305" cy="238" r="1.8" fill="#DDD6FE" fill-opacity="0.8"/>
-  <circle cx="322" cy="226" r="2.4" fill="#E9D5FF" fill-opacity="0.85"/>
 </svg>
