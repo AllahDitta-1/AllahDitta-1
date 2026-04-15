@@ -5,7 +5,7 @@
 ## :bulb: Languages & Frameworks I code in
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,express,mysql,mongodb,tailwind,materialui,redux,postman" alt="Languages and frameworks" height="42" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,nodejs,express,mysql,mongodb,tailwind,materialui,redux,postman" alt="Languages and frameworks" height="42" />
 </p>
 
 ## :hammer_and_wrench: Things that help me getting my code done
