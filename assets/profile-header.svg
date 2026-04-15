@@ -1,44 +1,76 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="149" viewBox="0 0 850 149" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="70" y1="40" x2="1160" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0f172a"/>
-      <stop offset="0.5" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1d4ed8"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="850" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C1D95"/>
+      <stop offset="0.45" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#5B21B6"/>
     </linearGradient>
-    <linearGradient id="accent" x1="920" y1="70" x2="1180" y2="280" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38bdf8" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#2563eb" stop-opacity="0.35"/>
+    <linearGradient id="text" x1="158" y1="28" x2="677" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9D5FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0.95"/>
     </linearGradient>
-    <filter id="blur" x="820" y="20" width="420" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="26"/>
-    </filter>
   </defs>
 
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="1040" cy="165" r="105" fill="url(#accent)" filter="url(#blur)"/>
-  <circle cx="1150" cy="110" r="52" fill="#60a5fa" fill-opacity="0.25"/>
-  <circle cx="930" cy="255" r="38" fill="#38bdf8" fill-opacity="0.18"/>
+  <rect width="850" height="149" rx="8" fill="#1F093C"/>
 
-  <rect x="74" y="72" width="162" height="34" rx="17" fill="#0b1220" stroke="#60a5fa" stroke-opacity="0.45"/>
-  <text x="155" y="94" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Allah Ditta</text>
+  <g opacity="0.95">
+    <rect x="0" y="0" width="10" height="149" fill="url(#bg)"/>
+    <rect x="18" y="0" width="8" height="120" fill="url(#bg)"/>
+    <rect x="33" y="0" width="6" height="143" fill="url(#bg)"/>
+    <rect x="47" y="0" width="12" height="94" fill="url(#bg)"/>
+    <rect x="65" y="0" width="9" height="149" fill="url(#bg)"/>
+    <rect x="82" y="0" width="7" height="112" fill="url(#bg)"/>
+    <rect x="96" y="0" width="11" height="149" fill="url(#bg)"/>
+    <rect x="114" y="0" width="8" height="129" fill="url(#bg)"/>
+    <rect x="130" y="0" width="6" height="149" fill="url(#bg)"/>
+    <rect x="145" y="0" width="12" height="104" fill="url(#bg)"/>
+    <rect x="164" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="179" y="0" width="6" height="137" fill="url(#bg)"/>
+    <rect x="194" y="0" width="9" height="149" fill="url(#bg)"/>
+    <rect x="210" y="0" width="7" height="86" fill="url(#bg)"/>
+    <rect x="225" y="0" width="11" height="149" fill="url(#bg)"/>
+    <rect x="242" y="0" width="9" height="123" fill="url(#bg)"/>
+    <rect x="258" y="0" width="6" height="149" fill="url(#bg)"/>
+    <rect x="272" y="0" width="11" height="111" fill="url(#bg)"/>
+    <rect x="290" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="305" y="0" width="7" height="118" fill="url(#bg)"/>
+    <rect x="320" y="0" width="12" height="149" fill="url(#bg)"/>
+    <rect x="338" y="0" width="8" height="140" fill="url(#bg)"/>
+    <rect x="353" y="0" width="6" height="149" fill="url(#bg)"/>
+    <rect x="367" y="0" width="11" height="98" fill="url(#bg)"/>
+    <rect x="384" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="400" y="0" width="6" height="130" fill="url(#bg)"/>
+    <rect x="414" y="0" width="10" height="149" fill="url(#bg)"/>
+    <rect x="431" y="0" width="7" height="121" fill="url(#bg)"/>
+    <rect x="446" y="0" width="11" height="149" fill="url(#bg)"/>
+    <rect x="463" y="0" width="9" height="103" fill="url(#bg)"/>
+    <rect x="479" y="0" width="6" height="149" fill="url(#bg)"/>
+    <rect x="494" y="0" width="12" height="135" fill="url(#bg)"/>
+    <rect x="512" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="527" y="0" width="6" height="109" fill="url(#bg)"/>
+    <rect x="541" y="0" width="10" height="149" fill="url(#bg)"/>
+    <rect x="558" y="0" width="8" height="115" fill="url(#bg)"/>
+    <rect x="573" y="0" width="7" height="149" fill="url(#bg)"/>
+    <rect x="588" y="0" width="12" height="126" fill="url(#bg)"/>
+    <rect x="606" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="621" y="0" width="6" height="88" fill="url(#bg)"/>
+    <rect x="635" y="0" width="10" height="149" fill="url(#bg)"/>
+    <rect x="652" y="0" width="7" height="133" fill="url(#bg)"/>
+    <rect x="667" y="0" width="11" height="149" fill="url(#bg)"/>
+    <rect x="684" y="0" width="9" height="108" fill="url(#bg)"/>
+    <rect x="700" y="0" width="6" height="149" fill="url(#bg)"/>
+    <rect x="715" y="0" width="11" height="142" fill="url(#bg)"/>
+    <rect x="733" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="748" y="0" width="6" height="116" fill="url(#bg)"/>
+    <rect x="762" y="0" width="10" height="149" fill="url(#bg)"/>
+    <rect x="779" y="0" width="8" height="128" fill="url(#bg)"/>
+    <rect x="795" y="0" width="7" height="149" fill="url(#bg)"/>
+    <rect x="810" y="0" width="11" height="99" fill="url(#bg)"/>
+    <rect x="827" y="0" width="8" height="149" fill="url(#bg)"/>
+    <rect x="842" y="0" width="8" height="118" fill="url(#bg)"/>
+  </g>
 
-  <text x="74" y="152" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">
-    Full-Stack JavaScript Developer
+  <text x="425" y="92" text-anchor="middle" fill="url(#text)" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" opacity="0.88">
+    welcome to my profile!
   </text>
-  <text x="74" y="202" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
-    Building workflow apps, dashboards, finance tools, and role-based systems
-  </text>
-  <text x="74" y="246" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">
-    React • Node.js • Express • PHP • MySQL • MongoDB • Tailwind CSS
-  </text>
-
-  <rect x="74" y="278" width="160" height="40" rx="20" fill="#eff6ff"/>
-  <text x="154" y="304" text-anchor="middle" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Recruiter-ready profile</text>
-
-  <rect x="876" y="92" width="288" height="188" rx="24" fill="#0b1220" fill-opacity="0.48" stroke="#93c5fd" stroke-opacity="0.3"/>
-  <text x="910" y="136" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Highlighted work</text>
-  <text x="910" y="174" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• School Management System</text>
-  <text x="910" y="205" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• My Finance App</text>
-  <text x="910" y="236" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• Earning Hub</text>
-  <text x="910" y="267" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• WorkflowX</text>
 </svg>

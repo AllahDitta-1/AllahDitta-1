@@ -2,21 +2,16 @@
 
 # Allah Ditta - Full Stack JavaScript Developer
 
-## :wave: Welcome
-
-I build production-style web apps with **React, Node.js, Express, PHP, MySQL, MongoDB, and Tailwind CSS**.
-My focus is on dashboards, workflow systems, finance tools, admin panels, and projects that feel like real business software.
-
 ## :bulb: Languages & Frameworks I code in
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,express,php,mysql,mongodb,tailwind" alt="Languages and frameworks" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,express,php,mysql,mongodb,tailwind,materialui,redux,postman" alt="Languages and frameworks" />
 </p>
 
 ## :hammer_and_wrench: Things that help me getting my code done
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm,vercel,netlify,firebase" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=npm,git,github,vscode,windows,linux,vercel,netlify,firebase" alt="Tools" />
 </p>
 
 ## :rocket: Featured Projects
