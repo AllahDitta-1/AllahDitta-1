@@ -5,13 +5,13 @@
 ## :bulb: Languages & Frameworks I code in
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,express,php,mysql,mongodb,tailwind,materialui,redux,postman" alt="Languages and frameworks" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,express,php,mysql,mongodb,tailwind,materialui,redux,postman" alt="Languages and frameworks" height="42" />
 </p>
 
 ## :hammer_and_wrench: Things that help me getting my code done
 
 <p>
-  <img src="https://skillicons.dev/icons?i=npm,git,github,vscode,windows,linux,vercel,netlify,firebase" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=npm,git,github,vscode,windows,linux,vercel,netlify,firebase" alt="Tools" height="42" />
 </p>
 
 ## :rocket: Featured Projects
