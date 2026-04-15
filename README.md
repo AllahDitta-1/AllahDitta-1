@@ -1,41 +1,65 @@
 # Allah Ditta
 
-Full-stack JavaScript developer focused on React, Node.js, Express, MongoDB, PHP, MySQL, and responsive frontend engineering. I build practical products such as dashboards, workflow systems, admin panels, and clean UI experiences that solve real business problems.
+Full-Stack JavaScript Developer focused on React, Node.js, Express, PHP, MySQL, MongoDB, and modern frontend systems.
 
-## What I Build
+I build products that look and feel like real business software: role-based dashboards, workflow apps, finance tools, and admin panels with clean UI and practical architecture.
 
-- Full-stack web apps for internal workflows and business operations.
-- React dashboards and admin panels with reusable component systems.
-- Responsive frontend projects using Vite, Tailwind CSS, and modern JavaScript.
-- Small product experiments that sharpen UI, state management, and API skills.
+## Selected Work
 
-## Featured Projects
+- [School Management System](https://github.com/AllahDitta-1/School-Managment-System) - role-based school platform with fee workflows, attendance, exams, report cards, and portal views.
+- [WorkflowX](https://github.com/AllahDitta-1/WorkflowX) - full-stack task and project management system with authentication, kanban-style workflows, and team collaboration.
+- [Earning Hub](https://github.com/AllahDitta-1/earning-app) - earning and wallet app built with React, PHP, and MySQL for balance, transaction, and referral flows.
+- [Call Center Sales](https://github.com/AllahDitta-1/call-center-sales) - role-based claims and sales workflow app for agent, verifier, and manager flows.
+- [Finance App](https://github.com/AllahDitta-1/my-finance-app) - personal finance dashboard for accounts, budgets, transactions, and reporting.
+- [Portfolio Website](https://github.com/AllahDitta-1/Portfolio-website) - personal portfolio built with React, Vite, Material UI, and Framer Motion.
 
-- [WorkflowX](https://github.com/AllahDitta-1/WorkflowX) - task and project management system with team workflows.
-- [School-Managment-System](https://github.com/AllahDitta-1/School-Managment-System) - school administration platform with role-based portals.
-- [call-center-sales](https://github.com/AllahDitta-1/call-center-sales) - call center claims and sales workflow application.
-- [earning-app](https://github.com/AllahDitta-1/earning-app) - earning and wallet application with React, PHP, and MySQL.
-- [my-finance-app](https://github.com/AllahDitta-1/my-finance-app) - personal finance dashboard with accounts, budgets, and reports.
+## Featured Repositories
 
-## Core Stack
+<p>
+  <a href="https://github.com/AllahDitta-1/School-Managment-System">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AllahDitta-1&repo=School-Managment-System&hide_border=true" alt="School Management System repository card" />
+  </a>
+  <a href="https://github.com/AllahDitta-1/WorkflowX">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AllahDitta-1&repo=WorkflowX&hide_border=true" alt="WorkflowX repository card" />
+  </a>
+</p>
 
-- JavaScript
-- React
-- Node.js
-- Express
-- MongoDB
-- PHP
-- MySQL
-- Tailwind CSS
-- Vite
-- REST APIs
+<p>
+  <a href="https://github.com/AllahDitta-1/earning-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AllahDitta-1&repo=earning-app&hide_border=true" alt="Earning app repository card" />
+  </a>
+  <a href="https://github.com/AllahDitta-1/call-center-sales">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AllahDitta-1&repo=call-center-sales&hide_border=true" alt="Call center sales repository card" />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/AllahDitta-1/my-finance-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AllahDitta-1&repo=my-finance-app&hide_border=true" alt="My finance app repository card" />
+  </a>
+  <a href="https://github.com/AllahDitta-1/Portfolio-website">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AllahDitta-1&repo=Portfolio-website&hide_border=true" alt="Portfolio website repository card" />
+  </a>
+</p>
+
+## GitHub Activity
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=AllahDitta-1&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=AllahDitta-1&hide_border=true" alt="GitHub streak stats" />
+</p>
+
+<p>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AllahDitta-1&bg_color=ffffff&color=0f172a&line=2563eb&point=2563eb&area=true&hide_border=true" alt="GitHub contribution activity graph" />
+</p>
+
+## Tech Focus
+
+- Frontend: React, Vite, Tailwind CSS, Material UI, Framer Motion
+- Backend: Node.js, Express, PHP, MySQL, MongoDB
+- Product Types: dashboards, admin panels, workflow systems, finance tools
 
 ## Contact
 
 - LinkedIn: [linkedin.com/in/allah-ditta-7b623027b](https://www.linkedin.com/in/allah-ditta-7b623027b/)
 - Email: [allahditta643568@gmail.com](mailto:allahditta643568@gmail.com)
-
-## GitHub Stats
-
-![Allah Ditta GitHub stats](https://github-readme-stats.vercel.app/api?username=AllahDitta-1&show_icons=true&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AllahDitta-1&layout=compact&hide_border=true)
