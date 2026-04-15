@@ -1,71 +1,146 @@
 <svg width="850" height="149" viewBox="0 0 850 149" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="dripMain" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#C66BFF"/>
-      <stop offset="0.52" stop-color="#953BE9"/>
-      <stop offset="1" stop-color="#6125AF"/>
+    <linearGradient id="purpleMain" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C268FF"/>
+      <stop offset="0.5" stop-color="#8D33E8"/>
+      <stop offset="1" stop-color="#59209A"/>
     </linearGradient>
-    <linearGradient id="dripSoft" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EBC8FF" stop-opacity="0.95"/>
-      <stop offset="0.38" stop-color="#C07AFF" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#8642D6" stop-opacity="0"/>
+    <linearGradient id="purpleSoft" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8C8FF"/>
+      <stop offset="0.45" stop-color="#C57AFF"/>
+      <stop offset="1" stop-color="#7A2DD0" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="barsA" x="0" y="0" width="86" height="149" patternUnits="userSpaceOnUse">
-      <rect x="2" y="0" width="8" height="149" rx="3" fill="url(#dripMain)"/>
-      <rect x="15" y="0" width="3" height="91" rx="1.5" fill="url(#dripMain)"/>
-      <rect x="22" y="0" width="6" height="128" rx="2.5" fill="url(#dripMain)"/>
-      <rect x="33" y="0" width="4" height="74" rx="2" fill="url(#dripMain)"/>
-      <rect x="41" y="0" width="10" height="149" rx="3.5" fill="url(#dripMain)"/>
-      <rect x="56" y="0" width="3" height="102" rx="1.5" fill="url(#dripMain)"/>
-      <rect x="63" y="0" width="7" height="140" rx="3" fill="url(#dripMain)"/>
-      <rect x="75" y="0" width="4" height="87" rx="2" fill="url(#dripMain)"/>
-    </pattern>
-    <pattern id="barsB" x="0" y="0" width="94" height="149" patternUnits="userSpaceOnUse">
-      <rect x="6" y="0" width="2" height="114" rx="1" fill="url(#dripSoft)"/>
-      <rect x="18" y="0" width="5" height="149" rx="2.5" fill="url(#dripSoft)"/>
-      <rect x="31" y="0" width="2" height="67" rx="1" fill="url(#dripSoft)"/>
-      <rect x="39" y="0" width="4" height="118" rx="2" fill="url(#dripSoft)"/>
-      <rect x="52" y="0" width="2" height="149" rx="1" fill="url(#dripSoft)"/>
-      <rect x="61" y="0" width="3" height="95" rx="1.5" fill="url(#dripSoft)"/>
-      <rect x="71" y="0" width="5" height="133" rx="2.5" fill="url(#dripSoft)"/>
-      <rect x="84" y="0" width="2" height="81" rx="1" fill="url(#dripSoft)"/>
-    </pattern>
-    <filter id="panelShadow" x="87" y="34" width="676" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feOffset dy="4"/>
-      <feGaussianBlur stdDeviation="8"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.258824 0 0 0 0 0.0941176 0 0 0 0 0.458824 0 0 0 0.18 0"/>
+    <filter id="textShadow" x="68" y="20" width="714" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="2"/>
+      <feGaussianBlur stdDeviation="1.6"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.203922 0 0 0 0 0.0705882 0 0 0 0 0.360784 0 0 0 0.30 0"/>
     </filter>
-    <filter id="textShadow" x="103" y="33" width="644" height="86" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feOffset dy="1.2"/>
-      <feGaussianBlur stdDeviation="1.2"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.192157 0 0 0 0 0.054902 0 0 0 0 0.341176 0 0 0 0.24 0"/>
+    <filter id="textSoft" x="70" y="18" width="710" height="102" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.8"/>
     </filter>
   </defs>
 
-  <rect width="850" height="149" fill="#FCF8FF"/>
-  <rect width="850" height="149" fill="url(#barsA)"/>
-  <rect x="7" width="843" height="149" fill="url(#barsB)" opacity="0.8"/>
-  <rect x="0" y="0" width="850" height="26" fill="#FFFFFF" fill-opacity="0.2"/>
-
-  <g filter="url(#panelShadow)">
-    <rect x="111" y="44" width="628" height="54" rx="18" fill="#FFF9FF" fill-opacity="0.72"/>
-  </g>
-
-  <rect x="111.5" y="44.5" width="627" height="53" rx="17.5" fill="#FFF9FF" fill-opacity="0.58" stroke="#F1D9FF" stroke-opacity="0.9"/>
+  <rect width="850" height="149" fill="#FFFFFF"/>
 
   <g filter="url(#textShadow)">
     <text
       x="425"
-      y="83"
+      y="93"
       text-anchor="middle"
-      fill="#5D2396"
-      fill-opacity="0.96"
+      fill="#5E239B"
+      fill-opacity="0.46"
       font-family="Arial Black, Segoe UI, Verdana, sans-serif"
-      font-size="60"
+      font-size="66"
       font-weight="900"
-      letter-spacing="-1.5"
+      letter-spacing="-1.6"
     >
       Welcome to my profile!
     </text>
+  </g>
+
+  <g filter="url(#textSoft)">
+    <text
+      x="425"
+      y="93"
+      text-anchor="middle"
+      fill="#6B29A8"
+      fill-opacity="0.34"
+      font-family="Arial Black, Segoe UI, Verdana, sans-serif"
+      font-size="66"
+      font-weight="900"
+      letter-spacing="-1.6"
+    >
+      Welcome to my profile!
+    </text>
+  </g>
+
+  <g opacity="0.97">
+    <rect x="5" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="16" y="0" width="2" height="118" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="23" y="0" width="3" height="149" rx="1.5" fill="url(#purpleMain)"/>
+    <rect x="31" y="0" width="6" height="124" rx="3" fill="url(#purpleSoft)"/>
+    <rect x="42" y="0" width="3" height="99" rx="1.5" fill="url(#purpleMain)"/>
+    <rect x="50" y="0" width="2" height="149" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="58" y="0" width="5" height="136" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="69" y="0" width="2" height="108" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="78" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="91" y="0" width="3" height="86" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="100" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="110" y="0" width="2" height="122" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="118" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="130" y="0" width="2" height="109" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="138" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="151" y="0" width="3" height="94" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="160" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="169" y="0" width="2" height="128" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="177" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="190" y="0" width="2" height="111" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="198" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="209" y="0" width="3" height="102" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="218" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="228" y="0" width="2" height="123" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="236" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="249" y="0" width="3" height="84" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="258" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="267" y="0" width="2" height="134" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="275" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="286" y="0" width="2" height="115" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="294" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="307" y="0" width="3" height="96" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="316" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="326" y="0" width="2" height="125" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="334" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="345" y="0" width="3" height="89" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="354" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="363" y="0" width="2" height="120" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="371" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="384" y="0" width="2" height="107" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="392" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="403" y="0" width="3" height="129" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="412" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="422" y="0" width="2" height="98" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="430" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="443" y="0" width="3" height="118" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="452" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="461" y="0" width="2" height="90" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="469" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="480" y="0" width="2" height="132" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="488" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="501" y="0" width="3" height="111" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="510" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="520" y="0" width="2" height="123" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="528" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="539" y="0" width="3" height="88" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="548" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="557" y="0" width="2" height="127" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="565" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="578" y="0" width="3" height="102" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="587" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="597" y="0" width="2" height="135" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="605" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="616" y="0" width="2" height="108" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="624" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="637" y="0" width="3" height="92" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="646" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="655" y="0" width="2" height="124" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="663" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="674" y="0" width="3" height="84" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="683" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="693" y="0" width="2" height="133" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="701" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="714" y="0" width="3" height="112" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="723" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="732" y="0" width="2" height="121" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="740" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="751" y="0" width="3" height="88" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="760" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="770" y="0" width="2" height="129" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="778" y="0" width="6" height="149" rx="3" fill="url(#purpleMain)"/>
+    <rect x="791" y="0" width="3" height="104" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="800" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
+    <rect x="809" y="0" width="2" height="118" rx="1" fill="url(#purpleSoft)"/>
+    <rect x="817" y="0" width="5" height="149" rx="2.5" fill="url(#purpleMain)"/>
+    <rect x="828" y="0" width="3" height="95" rx="1.5" fill="url(#purpleSoft)"/>
+    <rect x="837" y="0" width="4" height="149" rx="2" fill="url(#purpleMain)"/>
   </g>
 </svg>
