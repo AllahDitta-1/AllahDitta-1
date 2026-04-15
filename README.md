@@ -1,4 +1,4 @@
-![Alt Text](./assets/profile-header.svg)
+![Alt Text](./assets/profile-header-v2.svg)
 
 # Allah Ditta - Full Stack JavaScript Developer
 
