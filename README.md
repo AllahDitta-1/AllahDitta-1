@@ -1,4 +1,4 @@
-![Alt Text](./assets/profile-header-v3.svg)
+![Alt Text](./assets/profile-header-v4.png)
 
 # Allah Ditta - Software Engineer | Mern Stack Developer
 
