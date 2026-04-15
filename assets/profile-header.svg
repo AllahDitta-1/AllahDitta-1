@@ -1,0 +1,44 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="40" x2="1160" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="920" y1="70" x2="1180" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="blur" x="820" y="20" width="420" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="165" r="105" fill="url(#accent)" filter="url(#blur)"/>
+  <circle cx="1150" cy="110" r="52" fill="#60a5fa" fill-opacity="0.25"/>
+  <circle cx="930" cy="255" r="38" fill="#38bdf8" fill-opacity="0.18"/>
+
+  <rect x="74" y="72" width="162" height="34" rx="17" fill="#0b1220" stroke="#60a5fa" stroke-opacity="0.45"/>
+  <text x="155" y="94" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Allah Ditta</text>
+
+  <text x="74" y="152" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">
+    Full-Stack JavaScript Developer
+  </text>
+  <text x="74" y="202" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
+    Building workflow apps, dashboards, finance tools, and role-based systems
+  </text>
+  <text x="74" y="246" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">
+    React • Node.js • Express • PHP • MySQL • MongoDB • Tailwind CSS
+  </text>
+
+  <rect x="74" y="278" width="160" height="40" rx="20" fill="#eff6ff"/>
+  <text x="154" y="304" text-anchor="middle" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Recruiter-ready profile</text>
+
+  <rect x="876" y="92" width="288" height="188" rx="24" fill="#0b1220" fill-opacity="0.48" stroke="#93c5fd" stroke-opacity="0.3"/>
+  <text x="910" y="136" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Highlighted work</text>
+  <text x="910" y="174" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• School Management System</text>
+  <text x="910" y="205" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• My Finance App</text>
+  <text x="910" y="236" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• Earning Hub</text>
+  <text x="910" y="267" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">• WorkflowX</text>
+</svg>
