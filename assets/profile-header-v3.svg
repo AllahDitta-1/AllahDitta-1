@@ -1,0 +1,221 @@
+<svg width="850" height="149" viewBox="0 0 850 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barDark" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B24CFF"/>
+      <stop offset="0.48" stop-color="#7A25DB"/>
+      <stop offset="1" stop-color="#44127F"/>
+    </linearGradient>
+    <linearGradient id="barMid" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D89DFF"/>
+      <stop offset="0.38" stop-color="#B95DFF"/>
+      <stop offset="1" stop-color="#6B21C8"/>
+    </linearGradient>
+    <linearGradient id="barLight" x1="0" y1="0" x2="0" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2DBFF"/>
+      <stop offset="0.45" stop-color="#CF8BFF"/>
+      <stop offset="1" stop-color="#8847DF" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="textGlow" x="54" y="8" width="742" height="122" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+    <filter id="textSoft" x="56" y="12" width="738" height="114" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="1.2"/>
+      <feGaussianBlur stdDeviation="1.3"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.298039 0 0 0 0 0.137255 0 0 0 0 0.52549 0 0 0 0.30 0"/>
+    </filter>
+  </defs>
+
+  <rect width="850" height="149" fill="#FFFFFF"/>
+
+  <g filter="url(#textGlow)">
+    <text
+      x="425"
+      y="95"
+      text-anchor="middle"
+      fill="#C5A7EE"
+      fill-opacity="0.62"
+      font-family="Arial Black, Segoe UI, Verdana, sans-serif"
+      font-size="68"
+      font-weight="900"
+      letter-spacing="-1.7"
+    >
+      Welcome to my profile!
+    </text>
+  </g>
+
+  <g filter="url(#textSoft)">
+    <text
+      x="425"
+      y="95"
+      text-anchor="middle"
+      fill="#6E46AC"
+      fill-opacity="0.58"
+      font-family="Arial Black, Segoe UI, Verdana, sans-serif"
+      font-size="68"
+      font-weight="900"
+      letter-spacing="-1.7"
+    >
+      Welcome to my profile!
+    </text>
+  </g>
+
+  <g opacity="0.52">
+    <rect x="3" y="0" width="2" height="132" rx="1" fill="url(#barLight)"/>
+    <rect x="12" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="21" y="0" width="2" height="118" rx="1" fill="url(#barLight)"/>
+    <rect x="28" y="0" width="4" height="142" rx="2" fill="url(#barLight)"/>
+    <rect x="38" y="0" width="2" height="102" rx="1" fill="url(#barLight)"/>
+    <rect x="45" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="55" y="0" width="2" height="121" rx="1" fill="url(#barLight)"/>
+    <rect x="62" y="0" width="4" height="145" rx="2" fill="url(#barLight)"/>
+    <rect x="73" y="0" width="2" height="110" rx="1" fill="url(#barLight)"/>
+    <rect x="80" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="89" y="0" width="2" height="126" rx="1" fill="url(#barLight)"/>
+    <rect x="96" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="107" y="0" width="2" height="116" rx="1" fill="url(#barLight)"/>
+    <rect x="114" y="0" width="3" height="140" rx="1.5" fill="url(#barLight)"/>
+    <rect x="123" y="0" width="2" height="96" rx="1" fill="url(#barLight)"/>
+    <rect x="131" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="141" y="0" width="2" height="120" rx="1" fill="url(#barLight)"/>
+    <rect x="149" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="158" y="0" width="2" height="108" rx="1" fill="url(#barLight)"/>
+    <rect x="166" y="0" width="4" height="143" rx="2" fill="url(#barLight)"/>
+    <rect x="177" y="0" width="2" height="117" rx="1" fill="url(#barLight)"/>
+    <rect x="184" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="193" y="0" width="2" height="99" rx="1" fill="url(#barLight)"/>
+    <rect x="201" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="211" y="0" width="2" height="119" rx="1" fill="url(#barLight)"/>
+    <rect x="219" y="0" width="3" height="138" rx="1.5" fill="url(#barLight)"/>
+    <rect x="228" y="0" width="2" height="104" rx="1" fill="url(#barLight)"/>
+    <rect x="236" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="247" y="0" width="2" height="123" rx="1" fill="url(#barLight)"/>
+    <rect x="255" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="264" y="0" width="2" height="92" rx="1" fill="url(#barLight)"/>
+    <rect x="272" y="0" width="4" height="142" rx="2" fill="url(#barLight)"/>
+    <rect x="282" y="0" width="2" height="112" rx="1" fill="url(#barLight)"/>
+    <rect x="290" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="299" y="0" width="2" height="127" rx="1" fill="url(#barLight)"/>
+    <rect x="308" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="318" y="0" width="2" height="106" rx="1" fill="url(#barLight)"/>
+    <rect x="326" y="0" width="3" height="140" rx="1.5" fill="url(#barLight)"/>
+    <rect x="335" y="0" width="2" height="118" rx="1" fill="url(#barLight)"/>
+    <rect x="344" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="355" y="0" width="2" height="98" rx="1" fill="url(#barLight)"/>
+    <rect x="362" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="371" y="0" width="2" height="126" rx="1" fill="url(#barLight)"/>
+    <rect x="379" y="0" width="4" height="141" rx="2" fill="url(#barLight)"/>
+    <rect x="390" y="0" width="2" height="111" rx="1" fill="url(#barLight)"/>
+    <rect x="398" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="407" y="0" width="2" height="122" rx="1" fill="url(#barLight)"/>
+    <rect x="416" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="427" y="0" width="2" height="101" rx="1" fill="url(#barLight)"/>
+    <rect x="435" y="0" width="3" height="144" rx="1.5" fill="url(#barLight)"/>
+    <rect x="444" y="0" width="2" height="114" rx="1" fill="url(#barLight)"/>
+    <rect x="452" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="463" y="0" width="2" height="124" rx="1" fill="url(#barLight)"/>
+    <rect x="471" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="480" y="0" width="2" height="96" rx="1" fill="url(#barLight)"/>
+    <rect x="488" y="0" width="4" height="142" rx="2" fill="url(#barLight)"/>
+    <rect x="499" y="0" width="2" height="120" rx="1" fill="url(#barLight)"/>
+    <rect x="507" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="516" y="0" width="2" height="103" rx="1" fill="url(#barLight)"/>
+    <rect x="524" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="535" y="0" width="2" height="128" rx="1" fill="url(#barLight)"/>
+    <rect x="543" y="0" width="3" height="140" rx="1.5" fill="url(#barLight)"/>
+    <rect x="552" y="0" width="2" height="108" rx="1" fill="url(#barLight)"/>
+    <rect x="560" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="571" y="0" width="2" height="117" rx="1" fill="url(#barLight)"/>
+    <rect x="579" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="588" y="0" width="2" height="94" rx="1" fill="url(#barLight)"/>
+    <rect x="596" y="0" width="4" height="143" rx="2" fill="url(#barLight)"/>
+    <rect x="606" y="0" width="2" height="116" rx="1" fill="url(#barLight)"/>
+    <rect x="614" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="623" y="0" width="2" height="129" rx="1" fill="url(#barLight)"/>
+    <rect x="632" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="643" y="0" width="2" height="109" rx="1" fill="url(#barLight)"/>
+    <rect x="651" y="0" width="3" height="140" rx="1.5" fill="url(#barLight)"/>
+    <rect x="660" y="0" width="2" height="121" rx="1" fill="url(#barLight)"/>
+    <rect x="668" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="679" y="0" width="2" height="97" rx="1" fill="url(#barLight)"/>
+    <rect x="687" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="696" y="0" width="2" height="126" rx="1" fill="url(#barLight)"/>
+    <rect x="705" y="0" width="4" height="142" rx="2" fill="url(#barLight)"/>
+    <rect x="715" y="0" width="2" height="115" rx="1" fill="url(#barLight)"/>
+    <rect x="723" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="732" y="0" width="2" height="100" rx="1" fill="url(#barLight)"/>
+    <rect x="741" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="751" y="0" width="2" height="122" rx="1" fill="url(#barLight)"/>
+    <rect x="759" y="0" width="3" height="141" rx="1.5" fill="url(#barLight)"/>
+    <rect x="768" y="0" width="2" height="108" rx="1" fill="url(#barLight)"/>
+    <rect x="776" y="0" width="4" height="149" rx="2" fill="url(#barLight)"/>
+    <rect x="787" y="0" width="2" height="118" rx="1" fill="url(#barLight)"/>
+    <rect x="795" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="804" y="0" width="2" height="103" rx="1" fill="url(#barLight)"/>
+    <rect x="812" y="0" width="4" height="143" rx="2" fill="url(#barLight)"/>
+    <rect x="823" y="0" width="2" height="117" rx="1" fill="url(#barLight)"/>
+    <rect x="831" y="0" width="3" height="149" rx="1.5" fill="url(#barLight)"/>
+    <rect x="840" y="0" width="2" height="126" rx="1" fill="url(#barLight)"/>
+  </g>
+
+  <g opacity="0.88">
+    <rect x="7" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="19" y="0" width="5" height="129" rx="2.5" fill="url(#barMid)"/>
+    <rect x="32" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="47" y="0" width="5" height="109" rx="2.5" fill="url(#barMid)"/>
+    <rect x="60" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="74" y="0" width="5" height="118" rx="2.5" fill="url(#barMid)"/>
+    <rect x="88" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="103" y="0" width="5" height="96" rx="2.5" fill="url(#barMid)"/>
+    <rect x="116" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="131" y="0" width="5" height="115" rx="2.5" fill="url(#barMid)"/>
+    <rect x="145" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="160" y="0" width="5" height="104" rx="2.5" fill="url(#barMid)"/>
+    <rect x="174" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="188" y="0" width="5" height="120" rx="2.5" fill="url(#barMid)"/>
+    <rect x="202" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="217" y="0" width="5" height="92" rx="2.5" fill="url(#barMid)"/>
+    <rect x="231" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="245" y="0" width="5" height="111" rx="2.5" fill="url(#barMid)"/>
+    <rect x="259" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="274" y="0" width="5" height="127" rx="2.5" fill="url(#barMid)"/>
+    <rect x="288" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="302" y="0" width="5" height="101" rx="2.5" fill="url(#barMid)"/>
+    <rect x="317" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="332" y="0" width="5" height="118" rx="2.5" fill="url(#barMid)"/>
+    <rect x="346" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="360" y="0" width="5" height="98" rx="2.5" fill="url(#barMid)"/>
+    <rect x="374" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="389" y="0" width="5" height="116" rx="2.5" fill="url(#barMid)"/>
+    <rect x="403" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="417" y="0" width="5" height="103" rx="2.5" fill="url(#barMid)"/>
+    <rect x="432" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="447" y="0" width="5" height="121" rx="2.5" fill="url(#barMid)"/>
+    <rect x="461" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="475" y="0" width="5" height="94" rx="2.5" fill="url(#barMid)"/>
+    <rect x="489" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="504" y="0" width="5" height="113" rx="2.5" fill="url(#barMid)"/>
+    <rect x="518" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="532" y="0" width="5" height="128" rx="2.5" fill="url(#barMid)"/>
+    <rect x="546" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="561" y="0" width="5" height="102" rx="2.5" fill="url(#barMid)"/>
+    <rect x="575" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="589" y="0" width="5" height="117" rx="2.5" fill="url(#barMid)"/>
+    <rect x="604" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="619" y="0" width="5" height="99" rx="2.5" fill="url(#barMid)"/>
+    <rect x="633" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="647" y="0" width="5" height="121" rx="2.5" fill="url(#barMid)"/>
+    <rect x="661" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="676" y="0" width="5" height="107" rx="2.5" fill="url(#barMid)"/>
+    <rect x="690" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="704" y="0" width="5" height="126" rx="2.5" fill="url(#barMid)"/>
+    <rect x="719" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="734" y="0" width="5" height="97" rx="2.5" fill="url(#barMid)"/>
+    <rect x="748" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="762" y="0" width="5" height="116" rx="2.5" fill="url(#barMid)"/>
+    <rect x="776" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+    <rect x="791" y="0" width="5" height="104" rx="2.5" fill="url(#barMid)"/>
+    <rect x="805" y="0" width="6" height="149" rx="3" fill="url(#barDark)"/>
+    <rect x="819" y="0" width="5" height="123" rx="2.5" fill="url(#barMid)"/>
+    <rect x="833" y="0" width="7" height="149" rx="3.5" fill="url(#barDark)"/>
+  </g>
+</svg>
